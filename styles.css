@@ -1,0 +1,51 @@
+body{
+  width: 80%;
+  margin: 0 auto;
+}
+
+header{
+  height: 100px;
+}
+
+.logo{
+  height:100%;
+}
+
+.title_texts{
+  float:right;
+  text-align: right;
+}
+
+header h4,header h1{
+  margin:0;
+}
+
+header h1{
+  font-size: 50px;
+}
+
+header h4{
+  font-size: 20px;
+}
+
+hr{
+  margin-bottom: 20px;
+}
+
+hr, .img_code, .project_img{
+  width: 100%;
+}
+
+.img_code{
+  height: 500px;
+}
+
+.project{
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.projects>h2{
+  margin: 30px 0 10px;
+}
